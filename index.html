@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>For My Valentine 💖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- INTRO -->
+  <section class="section intro">
+    <h1>FOR MY VALENTINE, ALWAYS 💗</h1>
+    <p class="sub">Open gently. It’s meant for you.</p>
+    <button onclick="scrollToSection('letter')">PLAY TOGETHER</button>
+  </section>
+
+  <!-- LETTER -->
+  <section id="letter" class="section">
+    <h2>A LETTER FROM MY HEART</h2>
+    <p class="letter">
+      My love,<br><br>
+      In every version of the day, near or far, you are where my heart goes first.
+      Loving you feels natural, like breathing.
+      Thank you for being my safe place, my smile, my home.
+      <br><br>
+      IF ONLY YOU COULD SEE YOURSELF THROUGH MY EYES, PERHAPS THEN YOU WOULD UNDERSTAND
+      WHY I MARVEL AT YOUR BEAUTY SO QUIETLY, WHY YOUR PRESENCE STEALS MY WORDS,
+      WHILE LEAVING MY HEART FULL OF THINGS IT LONGS TO SAY.
+      <br><br>
+      IF YOU COULD SEE YOURSELF THROUGH MY EYES, YOU WOULD UNDERSTAND WHY I BELIEVE IN GOD,
+      BECAUSE EXISTENCE FEELS DELIBERATE, CRAFTED WITH INTENTION, TOUCHED WITH CARE,
+      SHAPED BY A HAND THAT KNEW EXACTLY WHAT IT WAS DOING.
+      <br><br>
+      YOU ARE NOT AN ACCIDENT, YOU ARE GRACE MADE VISIBLE,
+      A TESTAMENT TO DIVINE PATIENCE AND GENTLE DESIGN.
+      <br><br>
+      IF ONLY YOU COULD SEE YOURSELF THROUGH MY EYES KHADIDJA.
+    </p>
+  </section>
+
+  <!-- PHOTOS -->
+  <section class="section">
+    <h2>OUR PHOTO MEMORY 📸</h2>
+    <div class="gallery">
+      <img src="assets/photo1.jpg">
+      <img src="assets/photo2.jpg">
+      <img src="assets/photo3.jpg">
+    </div>
+  </section>
+
+  <!-- MUSIC -->
+  <section class="section">
+    <h2>A SONG FOR YOU 🎶</h2>
+    <iframe style="border-radius:12px"
+      src="https://open.spotify.com/embed/track/7MXVkk9YMctZqd1Srtv4MB"
+      width="100%" height="152"
+      frameBorder="0"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+    </iframe>
+  </section>
+
+  <!-- SURPRISES -->
+  <section class="section">
+    <h2>LITTLE NOTES OF LOVE 💌</h2>
+    <div class="notes">
+      <button onclick="showNote(0)">💖</button>
+      <button onclick="showNote(1)">🐻</button>
+      <button onclick="showNote(2)">💘</button>
+    </div>
+    <p id="noteText"></p>
+  </section>
+
+  <footer>
+    Made with love by Ilyes 💕
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
