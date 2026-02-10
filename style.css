@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(#2b1055, #7597de);
+  color: white;
+  text-align: center;
+}
+
+.section {
+  padding: 60px 20px;
+  animation: fadeIn 1.2s ease;
+}
+
+.intro {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+.sub {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+button {
+  margin-top: 30px;
+  padding: 15px 25px;
+  background: #ff5fa2;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff87b7;
+}
+
+.letter {
+  max-width: 600px;
+  margin: auto;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+.notes button {
+  font-size: 24px;
+  margin: 10px;
+}
+
+#noteText {
+  margin-top: 20px;
+  font-size: 11px;
+}
+
+footer {
+  padding: 30px;
+  font-size: 10px;
+  opacity: 0.7;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
